@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7844" started-at="2018-06-29T12:26:55Z" finished-at="2018-06-29T12:27:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7844" started-at="2018-06-29T12:26:55Z" finished-at="2018-06-29T12:27:03Z">
+      <class name="com.qait.HRIS.hrisautomation.HrisTest">
+        <test-method status="PASS" signature="launchBrowserTest()[pri:0, instance:com.qait.HRIS.hrisautomation.HrisTest@5419f379]" name="launchBrowserTest" is-config="true" duration-ms="7042" started-at="2018-06-29T17:56:55Z" finished-at="2018-06-29T17:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserTest -->
+        <test-method status="PASS" signature="NoPasswordTest()[pri:1, instance:com.qait.HRIS.hrisautomation.HrisTest@5419f379]" name="NoPasswordTest" duration-ms="355" started-at="2018-06-29T17:57:03Z" finished-at="2018-06-29T17:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NoPasswordTest -->
+        <test-method status="FAIL" signature="WrongPasswordTest()[pri:2, instance:com.qait.HRIS.hrisautomation.HrisTest@5419f379]" name="WrongPasswordTest" duration-ms="414" started-at="2018-06-29T17:57:03Z" finished-at="2018-06-29T17:57:03Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.qait.HRIS.hrisautomation.LoginPanel.WrongPassword(LoginPanel.java:41)
+	at com.qait.HRIS.hrisautomation.HrisTest.WrongPasswordTest(HrisTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongPasswordTest -->
+      </class> <!-- com.qait.HRIS.hrisautomation.HrisTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
